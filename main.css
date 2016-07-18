@@ -2,8 +2,6 @@ body {
   padding-top: 51px; 
 }
 
-
-
 .jumbotron {
 	color: white;
   background-image:url('profiledesat.jpg'); 
@@ -113,20 +111,12 @@ margin-bottom: 80px;
   width:5%;
 }
 
-
-
 #contact{
   margin-top: 80px;
   margin-bottom: 80px;
 }
 
-
-
-
-
-
-
-      html, body {
+html, body {
   height: 50%;
  
 }
