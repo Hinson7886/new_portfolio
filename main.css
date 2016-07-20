@@ -18,7 +18,7 @@ body {
 
 .mission {
   
-  color: #7f7f7f;
+  /*color: #7f7f7f;*/
   margin-top: -30px;  
 font-family:'Raleway' 'sans-serif';
   padding: 5% 10% ;
@@ -45,7 +45,7 @@ margin-bottom: 80px;
 }
 
 .featured-info h2{
-	color: rgb(172,140,71);
+	/*color: rgb(127,127,127);*/
 	text-transform: uppercase;
 	font-size: 32px;
 	line-height: 40px;
@@ -64,14 +64,15 @@ margin-bottom: 80px;
 .featured-info ul{
 	padding-left: 0;
 }
-
 .Portfolio {
   
 	/*padding: 80px;*/
-  color: #7f7f7f;
+  color: rgb(127,127,127);
   font-size: 16px;
   margin-bottom: 15px;
 }
+
+
 
 .thumbnail {
     padding: 0 0 15px 0;
@@ -89,20 +90,26 @@ margin-bottom: 80px;
 .responsive{
   margin-bottom: 80px;
   margin-top: 80px;
-}
-
-.responsive h2{
   padding: 80px;
-  
 }
 
-.about{
+.responsive h2 {
+  margin-bottom: 50px;
+  color: rgb(127,127,127);
+  }
+
+.responsive h3{
+   color: rgb(127,127,127); 
+  }
+
+#about{
   margin-top: 10px;
   margin-bottom: 40px;
 }
 
-.about h2{
+#about h2{
   padding: 80px;
+  color: rgb(127,127,127);
   
 }
 
@@ -112,8 +119,13 @@ margin-bottom: 80px;
 }
 
 #contact{
+  color: rgb(127,127,127);
   margin-top: 80px;
   margin-bottom: 80px;
+}
+
+#contact h2{
+  margin-bottom: 50px;
 }
 
 html, body {
@@ -123,9 +135,6 @@ html, body {
 #map {
   height: 100%;
 }
-
-
-
 
  .slideanim {visibility:hidden;}
   .slide {
